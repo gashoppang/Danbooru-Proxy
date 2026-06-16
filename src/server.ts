@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { createServer, IncomingMessage, Server, ServerResponse } from 'node:http';
 import { URL } from 'node:url';
 

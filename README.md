@@ -50,6 +50,8 @@ DANBOORU_EGRESS_RATE_LIMIT_WINDOW_MS=60000
 DANBOORU_EGRESS_RATE_LIMIT_MAX=600
 ```
 
+The server loads `.env` automatically at startup.
+
 ## Build
 
 ```bash
