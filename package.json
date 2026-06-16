@@ -1,0 +1,27 @@
+{
+  "name": "danbooru-proxy",
+  "version": "1.0.0",
+  "description": "Danbooru-only WARP egress proxy for Prompt Smith",
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "test": "npm run build && node --test dist/**/*.test.js",
+    "type-check": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "danbooru",
+    "proxy",
+    "warp",
+    "egress"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
+  }
+}
